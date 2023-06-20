@@ -1,8 +1,8 @@
 {
-  "name": "frontend-basic-last-assignment-2021",
+  "name": "study-git",
   "version": "1.0.0",
   "main": "src/page/index.html",
-  "repository": "https://github.com/shinonome-inc/frontend-basic-last-assignment-2021.git",
+  "repository": "https://github.com/luck-tech/study-git.git",
   "author": "PG-frontend-teachers",
   "license": "MIT",
   "scripts": {
