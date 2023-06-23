@@ -1,0 +1,36 @@
+@use "../../variables" as *;
+@use "../../molecules/message/message.scss" as *;
+
+.item {
+  .img-box {
+    border-radius: 4px;
+    position: relative;
+    .item-img {
+      object-fit: contain;
+      box-sizing: content-box;
+      width: 100%;
+      border-radius: 4px;
+      background-color: $gray_desertStorm;
+    }
+    .item-price {
+      margin-bottom: 8px;
+      padding: 2px 12px 2px 8px;
+      background-color: #0006;
+      border-radius: 0 20px 20px 0;
+      position: absolute;
+      font-weight: 700;
+      font-size: $fontsize-l;
+      bottom: 0;
+    }
+  }
+  .message {
+    line-height: 1.4;
+    -webkit-line-clamp: 2; //text-overflowでの三点リーダー実装は1行の時しか使えない
+    display: -webkit-box; //webkitはIE, Firefoxに対応していないとのこと。改良の余地あり
+    -webkit-box-orient: vertical;
+    margin-top: 8px;
+    box-sizing: content-box;
+    width: 100%;
+    overflow: hidden;
+  }
+}
