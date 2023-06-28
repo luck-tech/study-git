@@ -1,0 +1,23 @@
+.recommendation {
+  .message {
+    margin-bottom: 16px;
+  }
+  .item-container {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-gap: 20px;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
+    @media screen and(max-width:960px) {
+      grid-gap: 0;
+      list-style: none;
+      grid-template-columns: repeat(3, 1fr);
+      .item {
+        .message {
+          display: none;
+        }
+      }
+    }
+  }
+}
