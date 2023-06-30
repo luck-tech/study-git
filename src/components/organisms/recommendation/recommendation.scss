@@ -17,6 +17,8 @@
       list-style: none;
       grid-template-columns: repeat(3, 1fr);
       .item {
+        border: 1px solid;
+        border-color: white;
         .message {
           display: none;
         }
