@@ -1,20 +1,20 @@
 .recommendation {
   .message {
     margin-bottom: 16px;
-    color:#666666;
+    color: #666666;
     font-size: 17px;
     font-weight: 700;
   }
-  button{
-      display: block;
-      position:fixed;
-      z-index: 1;
-      border-radius: 90px;
-      font-size: 35px;
-      bottom:0;
-      right: 0;
-      text-align: end;
-      //bottomとheightの値はfooter全体のheightによって調整必要
+  button {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    border-radius: 90px;
+    font-size: 35px;
+    bottom: 0;
+    right: 0;
+    text-align: end;
+    //bottomとheightの値はfooter全体のheightによって調整必要
   }
   .item-container {
     display: grid;
