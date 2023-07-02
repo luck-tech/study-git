@@ -9,7 +9,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-sass": "gulp"
-    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN"
   },
   "engines": {},
   "devDependencies": {
