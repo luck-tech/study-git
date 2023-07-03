@@ -1,0 +1,61 @@
+@use "../../variables" as *;
+
+.header {
+  padding-bottom: 10px;
+  background-color: $white;
+  border-bottom: 1px solid;
+  position: sticky;
+  top: 0;
+  .navigation-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .icon {
+      width: 45px;
+      height: 45px;
+      border: 1.5px solid;
+      border-radius: 50%;
+    }
+    .sign-button {
+      border: 1.5px solid;
+      border-radius: 5px;
+      padding: 5px;
+      text-decoration: none;
+      color: $black;
+      transition: background-color 0.2s ease;
+      &:hover {
+        background-color: $gray_gainsboro;
+      }
+    }
+  }
+  form {
+    display: flex;
+    input {
+      padding: 5px 0 5px 15px;
+      border-width: 1.5px;
+      border-color: $black;
+      border-right: 0;
+      border-radius: 20px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      width: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+    .search-mark {
+      height: 37px;
+      padding: 5px 10px 5px 0;
+      border: 1.5px solid;
+      border-left-width: 0px;
+      border-radius: 20px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      transition: background-color 0.2s ease;
+      &:hover {
+        background-color: $gray_gainsboro;
+      }
+    }
+  }
+}
